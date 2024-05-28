@@ -19,15 +19,15 @@ This code implements a simple GUI application in Python using Tkinter, which all
 - Adds the word to index.txt.
 - Displays a message indicating that the word does not exist in the file.
 
-# 4. GUI Setup:
+## 4. GUI Setup:
 • Initializes the Tkinter root window and configures its size and position.
 • Creates a frame containing a label, an entry box for user input, and a search button.
 • When the search button is clicked, it calls the search function.
 
-# 5.Window Closing Protocol (on_closing function):
+## 5.Window Closing Protocol (on_closing function):
 • Asks for user confirmation before closing the application.
 
-# 6.Main Execution:
+## 6.Main Execution:
 • Builds the inverted index by calling build_inverted_index.
 • Starts the Tkinter main loop to run the application.
 
