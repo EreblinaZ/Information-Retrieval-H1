@@ -1,8 +1,8 @@
 # Homework 1 - Information Retrieval
-This code implements a simple GUI application in Python using Tkinter, which allows users to search for words in a text file (index.txt). Here's a brief explanation of the code:
+This code implements a simple GUI application in Python using Tkinter, which allows users to search for words in a text file (*index.txt*). Here's a brief explanation of the code:
 
 ## 1. Inverted Index Construction (build_inverted_index function):
-- Reads the index.txt file line by line.
+- Reads the *index.txt* file line by line.
 - Splits each line into words and converts them to lowercase.
 - Constructs an inverted index where each word points to a list of line numbers where it appears.
 
@@ -14,9 +14,9 @@ This code implements a simple GUI application in Python using Tkinter, which all
 - Retrieves the word entered by the user.
 - Searches the word using the inverted index.
 - If the word is found:
-  - Writes the search results (line numbers and positions within lines) to search_result.txt.
+  - Writes the search results (line numbers and positions within lines) to *search_result.txt*.
 - If the word is not found:
-  - Adds the word to index.txt.
+  - Adds the word to *index.txt*.
   - Displays a message indicating that the word does not exist in the file.
 
 ## 4. GUI Setup:
