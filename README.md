@@ -14,10 +14,10 @@ This code implements a simple GUI application in Python using Tkinter, which all
 - Retrieves the word entered by the user.
 - Searches the word using the inverted index.
 - If the word is found:
-- Writes the search results (line numbers and positions within lines) to search_result.txt.
+  - Writes the search results (line numbers and positions within lines) to search_result.txt.
 - If the word is not found:
-- Adds the word to index.txt.
-- Displays a message indicating that the word does not exist in the file.
+  - Adds the word to index.txt.
+  - Displays a message indicating that the word does not exist in the file.
 
 ## 4. GUI Setup:
 - Initializes the Tkinter root window and configures its size and position.
